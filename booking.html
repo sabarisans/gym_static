@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FitNow-Booking</title>
+
+        <!-- css link -->
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- font-awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <!-- header  -->
+        <header class="header">
+            <a href="./index.html" class="logo">Fit <span>S</span>tar.</a>
+
+            <ul class="navbar">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About US</a>
+                <a href="./package.html">Packages</a>
+                <a href="#">
+                    <i class="fa-sharp fa-solid fa-user fa-fw"></i>Login</a
+                >
+            </ul>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </header>
+
+        <div class="heading">
+            <h1>Book Now</h1>
+        </div>
+
+        <!-- booking -->
+        <section class="booking">
+            <h1 class="heading-title">Grab your Package!</h1>
+            <form class="book-form">
+                <div class="flex">
+                    <div class="inputbox">
+                        <label for="name">Name <span style="color:'red'">*</span> :</label>
+                        <input
+                            type="text"
+                            placeholder="Enter Your Name.."
+                            name="name"
+                            id="name"
+                        />
+                    </div>
+                    <div class="inputbox">
+                        <label for="email">Email <span style="color:'red'">*</span> :</label>
+                        <input
+                            type="email"
+                            placeholder=" yourawesome@gamil.com"
+                            name="email"
+                            id="email"
+                        />
+                    </div>
+                    <div class="inputbox">
+                        <label for="phone">Phone <span style="color:'red'">*</span> :</label>
+                        <input
+                            type="number"
+                            placeholder="+91 99999 99999"
+                            name="phone"
+                            id="phone"
+                        />
+                    </div>
+                    <div class="inputbox">
+                        <label for="address">Address <span style="color:'red'">*</span> :</label>
+                        <input
+                            type="text"
+                            placeholder="Enter Your address.."
+                            name="address"
+                            id="address"
+                        />
+                    </div>
+                    <div class="inputbox">
+                        <label for="package">Package <span style="color:'red'">*</span> :</label>
+                        <select name="package" id="package">
+                            <option value="">Select Your Package</option>
+                            <option value="WEIGHTLOSS PROGRAMS">
+                                WEIGHTLOSS PROGRAMS
+                            </option>
+                            <option value="PERSONAL TRAINING">
+                                PERSONAL TRAINING
+                            </option>
+                            <option value="FITNESS ASSESSMENT">
+                                FITNESS ASSESSMENT
+                            </option>
+                            <option value="WORKOUT CHART">WORKOUT CHART</option>
+                            <option value="CROSSFIT">CROSSFIT</option>
+                            <option value="DIET COUNSELING">
+                                DIET COUNSELING
+                            </option>
+                            <option value="YOGA SANGA">YOGA SANGA</option>
+                            <option value="TITANIUM MEMBERSHIP">
+                                TITANIUM MEMBERSHIP
+                            </option>
+                            <option value="PLATINUM MEMBERSHIP">
+                                PLATINUM MEMBERSHIP
+                            </option>
+                            <option value="SILVER MEMBERSHIP">
+                                SILVER MEMBERSHIP
+                            </option>
+                            <option value="FAMILY MEMBERSHIP">
+                                FAMILY MEMBERSHIP
+                            </option>
+                        </select>
+                    </div>
+                    <div class="inputbox">
+                        <label for="duration">Duration <span style="color:'red'">*</span> :</label>
+                        <select name="duration" id="duration">
+                            <option value="">Select Your Duration</option>
+                            <option value="ONE MONTH">ONE MONTH</option>
+                            <option value="QUATERLY">QUATERLY</option>
+                            <option value="HALF YEARLY">HALF YEARLY</option>
+                            <option value="ONE YEAR">ONE YEAR</option>
+                        </select>
+                    </div>
+                </div>
+                <input
+                    type="submit"
+                    value="Submit"
+                    class="btn"
+                    id="submitBtn"
+                    name="send"
+                />
+            </form>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Quick Links</h3>
+                    <a href="./index.html"
+                        ><i class="fas fa-angle-right"></i> Home</a
+                    >
+                    <a href="./about.html"
+                        ><i class="fas fa-angle-right"></i> About US</a
+                    >
+                    <a href="./package.html"
+                        ><i class="fas fa-angle-right"></i> Packages</a
+                    >
+                    <a href="./booking.html"
+                        ><i class="fas fa-angle-right"></i> Booking</a
+                    >
+                    <a href="#"><i class="fas fa-angle-right"></i> Login</a>
+                </div>
+
+                <div class="box">
+                    <h3>Packages</h3>
+                    <a href="./package.html"
+                        ><i class="fas fa-angle-right"></i> WeightLoss
+                        Programs</a
+                    >
+                    <a href="./package.html"
+                        ><i class="fas fa-angle-right"></i> Personal Training</a
+                    >
+                    <a href="./package.html"
+                        ><i class="fas fa-angle-right"></i> Diet Counseling</a
+                    >
+                    <a href="./package.html"
+                        ><i class="fas fa-angle-right"></i> Workout Chart</a
+                    >
+                    <a href="./package.html"
+                        ><i class="fas fa-angle-right"></i> Crossfit</a
+                    >
+                </div>
+
+                <div class="box">
+                    <h3>Working Hours</h3>
+                    <a href="#"
+                        ><i class="fas fa-angle-right"></i>Monday- Saturday</a
+                    >
+                    <a href="#"
+                        ><i class="fa-solid fa-clock fa-fw"></i> 5.00am -
+                        10.00pm</a
+                    >
+                    <a href="#"><i class="fas fa-angle-right"></i>Sunday </a>
+                    <a href="#"
+                        ><i class="fa-solid fa-clock fa-fw"></i> 5.00am -
+                        1.00pm</a
+                    >
+                </div>
+
+                <div class="box">
+                    <h3>Contact Info</h3>
+                    <a href="#"
+                        ><i class="fa-solid fa-phone fa-fw"></i> +91
+                        98765-43210</a
+                    >
+                    <a href="#"
+                        ><i class="fa-solid fa-envelope fa-fw"></i>
+                        fitstar@gmail.com</a
+                    >
+                    <a href="#"
+                        ><i class="fa-brands fa-square-instagram fa-fw"></i>
+                        Instagram</a
+                    >
+                    <a href="#"
+                        ><i class="fa-brands fa-square-x-twitter fa-fw"></i>
+                        X-Twitter</a
+                    >
+                    <a href="#"
+                        ><i class="fa-solid fa-location-dot fa-fw"></i>
+                        KK-Nagar,Chennai,India</a
+                    >
+                </div>
+            </div>
+            <div class="credit">
+                Created By <span>Sabarisan S</span> | All Rights Reserved!
+            </div>
+            <a href="#" class="uppage"
+                ><i class="fa-regular fa-circle-up fa-fw"></i
+            ></a>
+        </footer>
+
+        <!-- js -->
+        <script defer src="script.js"></script>
+    </body>
+</html>
